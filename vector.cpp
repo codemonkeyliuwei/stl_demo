@@ -49,7 +49,7 @@ void InsertAndDelete(void)
     entryVec[0] = entry(0, "value0");
     entryVec[1] = entry(1, "value1");
 
-    //方法而：通过push_back在尾部插入
+    //方法二：通过push_back在尾部插入
     entryVec.push_back(entry(2, "value2"));
     entryVec.push_back(entry(3, "value3"));
     cout << "\nEntry vector after push:\n";

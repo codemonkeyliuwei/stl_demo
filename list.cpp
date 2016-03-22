@@ -52,7 +52,7 @@ void InsertAndDelete(void)
     cout << "\nEntry list after push:\n";
     for_each(entryList.begin(), entryList.end(), PrintEntry);
 
-    //删除--按迭代器, 删除第一个节点
+    //删除--按迭代器, 删除第一个节点, erase返回被删除节点的下一个节点
     entryList.erase(entryList.begin());
 
     //删除--按entry的值删除指定节点, 删除key=2的entry
